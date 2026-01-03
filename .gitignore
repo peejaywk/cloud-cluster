@@ -1,4 +1,5 @@
 .env
+.devcontainer/.bash_history
 # Local .terraform directories
 .terraform/
 # .tfstate files
