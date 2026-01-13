@@ -65,7 +65,7 @@ resource "azurerm_kubernetes_flux_configuration" "main" {
   namespace  = "flux-system"
 
   git_repository {
-    url             = "ssh://git@github.com/mischavandenburg/mercury-gitops"
+    url             = "ssh://git@github.com/peejaywk/n8n-cloud"
     reference_type  = "branch"
     reference_value = "main"
 
